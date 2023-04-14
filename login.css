@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+    font-family: arial;
+} 
+
+@font-face {
+    font-family: "Beaumont";
+    src: url("../fonts/Catherine.ttf");
+}
+
+body {
+    min-height: 100vh;
+    background-image: linear-gradient(120deg, #01270d,#048a37);
+}
+
+h1 {
+    font-family: Arial;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 35px;
+
+}
+
+.FORM {
+    width: 380px;
+    background: #ffffff;
+    height: 500px;
+    padding: 80px 40px;
+    border-radius: 10px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+form label{
+    font-weight :700;
+    color: #01270d;
+}
+
+.FORM header a img {
+    text-align: center;
+
+
+}
+.form-text {
+    margin-top: -43px;
+}
+
+.form-text header a {
+    text-decoration: none;
+    font-family: Beaumont;
+    font-size: 80px;
+
+}
+
+.form-text header a:visited {
+    color: #01270d;
+}
+
+.form-text header a:hover {
+    color: #01270d;
+}
+
+.un {
+    font-family: arial;
+    font-size: 15px;
+    margin-top: -10px;
+
+}
+
+
+.btn{
+    padding:10px;
+    border-radius: 10px;
+    background-color: #01270d;
+    color:#ffffff;
+}
+    
+.btn:hover{
+    background-color: #00008B;;
+    
+}
+
+
+input {
+    margin-bottom: 20px;
+    font-size: 15px;
+    padding: 7px;
+}
+
+label {
+    font-family: arial;
+    font-style: italic;
+
+}
+header {
+    text-align: center;
+}
+
+header a img {
+    text-align: center;
+    width: 200px;
+}
+
+
+.bottom-text p {
+    font-family: arial;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.bottom-text p a {
+    font-weight: bold;
+}
+
+#signup:visited {
+    color: #01270d;
+    font-weight: bold;
+}
+
+#signup:hover {
+    color: #01270d;
+}
+
+#signup {
+    text-decoration: none;
+    font-family: arial;
+    font-size: 13px;
+    font-weight: 900;
+
+}
+
+button {
+    margin-bottom: 15px;
+}
+
+.msg-erreur {
+    color: #01270d;
+    font-family: arial;
+}
+
+.forgot-pwd {
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.forgot-pwd:visited {
+    color: black;
+}
+
+.forgot-pwd:hover {
+    color: #01270d;
+
+}

@@ -1,0 +1,48 @@
+*{
+    font-family: arial;
+}
+@font-face{
+    font-family:"Beaumont";
+    src: url("../fonts/Catherine.ttf");
+}
+@font-face{
+    font-family:"Cooper";
+    src: url("../fonts/cooper.ttf");
+}
+
+body{
+   background-image: linear-gradient(120deg,#01270d,#04410c);
+    min-height: 100vh;
+    
+}
+
+.ins {
+    font-family: Cooper;
+    text-align: center;
+    margin-top: 10px;
+    margin-left : 50px; 
+    color: #fff;
+}
+
+.man {
+    margin-left: 400px;
+    color: #fff;
+    margin-top: 180px;
+    line-height: 35px;
+}
+
+.conn{
+    padding: 30px;
+    background-color: rgb(1, 26, 7);
+    color: #fff;
+    margin-left: 480px;
+    border-radius: 30px;
+    margin-top: 130px;
+}
+
+.conn:hover {
+    background-size: 50px;
+    background-color:black;
+}
+
+

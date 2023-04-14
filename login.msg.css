@@ -1,0 +1,147 @@
+@font-face{
+    font-family: "Cooper1";
+    src: url("../fonts/cooper.ttf")
+}
+@font-face{
+    font-family:"Beaumont";
+    src: url("../fonts/Catherine.ttf");
+}
+*{
+    font-family: Cooper1;
+}
+html,body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #01270d;
+    height: 800px;
+}
+.home-redirection{
+    position: absolute;
+    bottom: 18px;
+    right: 15px;
+    color: white;
+}
+.home-redirection a {
+    text-decoration: none;
+}
+.home-redirection a:visited{
+    color: white;
+}
+.home-redirection a:hover{
+    color: #FF00FF;
+}
+
+p{
+    text-align: center;
+    font-size: 34px;
+    font-family: Cooper1;
+    color: white;
+}
+
+.rec{
+    margin-left: 340px;
+    
+}
+
+.rec label{
+    color: #fff;
+}
+.rep {
+    margin-left: 700px;
+    padding: 25px;
+    margin-top: -110px;
+}
+.rep label{
+    color: #fff;
+}
+.res input{
+    width: 280px;
+}
+.res{
+    margin-left: 723px;
+    margin-top: -70px;
+    color: #fff;
+}
+.rem input{
+    width: 240px;
+}
+
+.rep input{
+    width: 330px;
+}
+
+.rec input{
+    width: 100px;
+}
+
+.ret{
+    margin-left: 340px;
+    color: #fff;
+}
+
+.rem{
+    margin-left: 340px;
+    color: #fff;
+}
+
+.rem{
+    margin-left: 720px;
+    margin-top: -84px;
+    color: #fff;
+}
+
+.rel{
+    margin-left: 340px;
+    
+    color: #fff;
+}
+
+.ret input{
+    width: 300px;
+}
+
+.rel input{
+    width: 240px;
+}
+
+input{
+    width: 400px;
+    padding: 10px;
+}
+
+input .emal{
+    width: 200px;
+}
+.peth{
+    width: 280px;
+    padding: 10px;
+    margin-left: 340px;
+}
+
+
+select{
+    font-size: 0.9rem;
+    padding : 2px 5px;
+}
+
+label{
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input, label {
+    margin : 0.4rem 0;
+}
+
+.btn{
+    padding: 15px;
+    margin-left: 630px;
+    margin-top: 30px;
+    color: #fff;
+    width: 150px;
+    background-position: center;
+    background-size: cover;
+    background-color: #00008B;
+}
+

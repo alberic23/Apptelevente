@@ -1,0 +1,106 @@
+@font-face {
+    font-family: "Beaumont";
+    src: url("fonts/Catherine.ttf");
+}
+@font-face {
+    font-family: "cooper";
+    src: url("fonts/cooper.ttf");
+}
+
+* {
+    color: #fff;
+    background-color: #012407;
+}
+
+
+
+.logo {
+    font-family: Beaumont;
+    font-size: 170px;
+    margin-left: 40px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+
+}
+
+.logo a {
+    text-decoration: none;
+}
+
+form .btn {
+    font-weight: 900;
+    margin-left: 200px;
+}
+
+.btn:visited {
+    color: #fff;
+}
+
+.btn:hover {
+    color: #00008B;
+}
+
+
+.inscription a li {
+    display: inline-block;
+    margin: 15px;
+    list-style: none;
+    font-family: arial;
+    
+
+}
+
+.inscription {
+    margin-top: -55px;
+    margin-left: 40px;
+    position: relative;
+}
+
+
+.inscription button{
+    margin-left: 80px;
+}
+
+.textgame {
+    margin-top: 25px;
+    font-family: cooper;
+    font-weight: bold;
+    font-size: 50px;
+    margin-left: 200px;
+    font-style: italic;
+
+}
+
+
+header {
+    height: 200px;
+    /*position: relative;*/
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: Arial;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: #ffb143;
+}
+
+
+
+
+@media screen and (min-width: 850px) { /*ADAPTER L'IMAGE EN FONCTION DE LA TAILLE DE L'ECRAN (responsive)*/
+    .image img {
+        margin-top: -300px;
+        margin-left: 600px;
+    }
+
+}
